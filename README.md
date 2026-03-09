@@ -296,7 +296,11 @@ O projeto usa arquivo `.env` para configuração de ambiente. Veja `.env.example
 | `LANGUAGE_CODE` | Código do idioma | `pt-br` |
 | `TIME_ZONE` | Zona de tempo | `America/Sao_Paulo` |
 
+**Deploy**
+[Deploy Hugging Faces](https://jon1nline-rota-segura.hf.space/)
+
 **⚠️ Importante:**
 - Nunca faça commit do arquivo `.env` (está em `.gitignore`)
 - A variável `DEBUG=False` deve ser usada em produção
 - Gere uma nova `SECRET_KEY` para produção com: `python -c 'from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())'`
+

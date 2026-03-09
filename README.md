@@ -1,3 +1,12 @@
+---
+title: RotaSegura
+emoji: 🚌
+colorFrom: blue
+colorTo: red
+sdk: docker
+pinned: false
+---
+
 # RotaSegura - Backend API
 
 Backend Django + Django REST Framework para o aplicativo RotaSegura.
@@ -163,7 +172,7 @@ GET /api/incidents/550e8400-e29b-41d4-a716-446655440000/
 
 Os UUIDs são formatados como strings no padrão: `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`
 
-## � Campos do Perfil do Usuário
+##   Campos do Perfil do Usuário
 
 O perfil do usuário contém os seguintes campos:
 
@@ -210,7 +219,7 @@ Resposta:
 }
 ```
 
-## �🔧 Admin Panel
+##  🔧 Admin Panel
 
 Acesse o painel administrativo em `http://localhost:8000/admin/` usando as credenciais do superusuário criado.
 

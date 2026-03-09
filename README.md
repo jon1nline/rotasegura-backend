@@ -304,3 +304,7 @@ O projeto usa arquivo `.env` para configuração de ambiente. Veja `.env.example
 - A variável `DEBUG=False` deve ser usada em produção
 - Gere uma nova `SECRET_KEY` para produção com: `python -c 'from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())'`
 
+## 📺 Apresentação do projeto
+
+**RotaSegura, uma PI em Desenvolvimento de Sistemas Orientado a Dispositivos Móveis e Baseados na Web**
+Acesse o vídeo pelo link: https://www.youtube.com/watch?v=y41GjwnaXAI

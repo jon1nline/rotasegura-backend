@@ -21,8 +21,6 @@ COPY requirements.txt .
 RUN pip install --upgrade pip setuptools wheel && \
     pip install -r requirements.txt
 
-# Baixar modelo spaCy português
-RUN python -m spacy download pt_core_news_sm
 
 # Copiar código da aplicação
 COPY . .
